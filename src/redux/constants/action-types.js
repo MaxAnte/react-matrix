@@ -1,0 +1,3 @@
+export const ADD_MATRIX = 'ADD_MATRIX';
+export const UPDATE_MATRIX_CELL = 'UPDATE_MATRIX_CELL';
+export const UPDATE_MATRIX = 'UPDATE_MATRIX';

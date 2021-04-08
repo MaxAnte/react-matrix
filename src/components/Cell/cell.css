@@ -1,0 +1,20 @@
+.matrix__cell button {
+  position: relative;
+  transition: all .3s ease;
+}
+.matrix__cell button.isClose {
+  background-color: slategrey;
+  transition: all .3s ease;
+}
+
+.matrix__cell button span {
+  display: block;
+  height: 0;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  background: orange;
+  transition: all .3s ease;
+}

@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import Average from './components/Average/Average';
+import Matrix from './components/Matrix/Matrix';
+import Form from './components/Form/Form';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="matrix">
+      <div className='matrix__inputs'>
+        <Form />
+      </div>
+      <div className='martrix__wrap'>
+        <div className='matrix__top'>
+          <Matrix />
+        </div>
+        <div className='matrix__bot'>
+          <Average />
+        </div>
+      </div>
     </div>
   );
 }
